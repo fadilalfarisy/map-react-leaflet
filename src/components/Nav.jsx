@@ -37,35 +37,6 @@ const Nav = () => {
         </div>
       </nav>
     </header>
-
-    // <header className='padding-x py-8 fixed z-50 w-full bg-white shadow'>
-    //   <nav className='flex justify-between items-center'>
-    //     <Link to='/'>
-    //       <img
-    //         src={headerLogo}
-    //         alt='logo'
-    //         width={129}
-    //         height={29}
-    //         className='w-[129px] h-[29px]'
-    //       />
-    //     </Link>
-    //     <ul className='flex-1 flex justify-end items-center gap-16'>
-    //       {navLinks.map((item) => (
-    //         <li key={item.label}>
-    //           <Link
-    //             to={item.to}
-    //             className='font-montserrat text-lg'
-    //           >
-    //             {item.label}
-    //           </Link>
-    //         </li>
-    //       ))}
-    //     </ul>
-    //     {/* <div className='visible xl:hidden'>
-    //       <img src={hamburger} alt='hamburger icon' width={25} height={25} />
-    //     </div> */}
-    //   </nav>
-    // </header>
   );
 };
 

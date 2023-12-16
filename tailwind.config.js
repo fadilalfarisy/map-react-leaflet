@@ -17,6 +17,12 @@ export default {
       '8xl': ['96px', '106px']
     },
     extend: {
+      maxWidth: {
+        'image': '200px',
+      },
+      minWidth: {
+        'image': '200px',
+      },
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
@@ -26,7 +32,8 @@ export default {
         "coral-red": "#FF6452",
         "slate-gray": "#6D6D6D",
         "pale-blue": "#F5F6FF",
-        "white-400": "rgba(255, 255, 255, 0.80)"
+        "white-400": "rgba(255, 255, 255, 0.80)",
+        "unique-blue": "rgba(5, 15, 110, 0.68)"
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'

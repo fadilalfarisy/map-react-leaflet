@@ -13,6 +13,8 @@ import twitter from './twitter.svg'
 
 import cardinalPoint from './cardinal-points.svg'
 import mosqueIcon from './mosque-icon.svg'
+import mosqueIconWhite from './mosque-icon-white.svg'
+import mosqueMarker from './mosque.svg'
 
 export {
     arrowRight,
@@ -29,5 +31,7 @@ export {
     twitter,
 
     cardinalPoint,
-    mosqueIcon
+    mosqueIcon,
+    mosqueIconWhite,
+    mosqueMarker
 }

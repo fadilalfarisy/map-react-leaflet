@@ -1,10 +1,12 @@
-import { useEffect } from "react";
+import { useEffect, useContext } from "react";
 import { useMap } from "react-leaflet";
 import L from "leaflet";
 import styles from "./css/location-button.module.css";
+import { MapContext } from "../pages/Map";
 
 const LocationButton = () => {
   const map = useMap();
+  const { setStart } = useContext(MapContext);
 
   useEffect(() => {
     // create custom button
@@ -115,6 +117,7 @@ const LocationButton = () => {
         });
       },
       addMarker: function ({ latitude, longitude }) {
+        setStart([latitude, longitude])
         return L.marker([latitude, longitude], {
           icon: L.divIcon({
             className: styles.locatedAnimation,

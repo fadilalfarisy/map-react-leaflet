@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "./css/home-button.css";
 import L from "leaflet";
 
-const center = [-0.2519107963944983, 117.69459237868406]
+const center = [-6.386476141846143, 106.81462283667398]
 
 const HomeButton = ({ map }) => {
   useEffect(() => {
@@ -20,7 +20,7 @@ const HomeButton = ({ map }) => {
           '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M32 18.451L16 6.031 0 18.451v-5.064L16 .967l16 12.42zM28 18v12h-8v-8h-8v8H4V18l12-9z"></path></svg>';
 
         btn.onclick = function () {
-          map.setView(center, 5)
+          map.setView(center, 12)
         };
 
         return btn;

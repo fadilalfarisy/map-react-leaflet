@@ -6,11 +6,11 @@ const SpecialOffers = () => {
   return (
     <section className="flex justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container">
       <div className="flex-1">
-        <img src={offer} alt='Special Offers' width={773} height={687} className='object-contain w-full'/>
+        <img src={offer} alt='Special Offers' width={773} height={687} className='object-contain w-full' />
       </div>
       <div className='flex flex-1 flex-col'>
         <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg font-bold'>
-          <span className='text-coral-red'> Special </span>Offers
+          <span className='text-unique-blue'> Special </span>Offers
         </h2>
         <p className='mt-4 lg:max-w-lg info-text'>
           Ensuring premium comfort and style, our meticulously crafted footwear

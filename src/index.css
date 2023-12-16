@@ -71,13 +71,32 @@
 }
 
 .direction {
-  width: 100px;
-  height: 100px;
   z-index: 999;
   cursor: pointer;
-  padding: 5px;
+  padding: 3px;
   background: #fff;
-  border: 2px solid rgba(0, 0, 0, 0.2);
   border-radius: 2px;
-  box-shadow: 0 1px 2px rgb(0 0 0 / 65%);
+  border: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.legend {
+  font-size: 0.8rem;
+  padding: 2px 4px;
+  background: #fff;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.mosque-coordinate ul {
+  list-style: none;
+  display: table;
+}
+
+.mosque-coordinate li {
+  display: table-row;
+}
+
+.mosque-coordinate span {
+  display: table-cell;
+  padding-right: 1em;
 }

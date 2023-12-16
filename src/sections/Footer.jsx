@@ -1,5 +1,5 @@
-import { copyrightSign } from '../assets/icons'
-import {footerLogo} from '../assets/images'
+import { copyrightSign, mosqueIconWhite } from '../assets/icons'
+import { footerLogo } from '../assets/images'
 import { socialMedia, footerLinks } from '../constants/index'
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col items-start">
           <a href="/">
             <img
-              src={footerLogo}
+              src={mosqueIconWhite}
               width={150}
               height={46}
             />
@@ -19,13 +19,13 @@ const Footer = () => {
           <div className='flex items-center gap-5 mt-8'>
             {socialMedia.map((icon) => (
               <div key={icon} className='flex justify-center items-center w-12 h-12 bg-white rounded-full'>
-                <img 
+                <img
                   src={icon.src}
                   alt={icon.alt}
                   width={24}
                   height={24}
                 />
-            </div>
+              </div>
             ))}
           </div>
         </div>
@@ -36,8 +36,8 @@ const Footer = () => {
               <ul>
                 {section.links.map((link) => (
                   <li
-                   key={link} 
-                   className='text-white-400 mt-3 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer'>
+                    key={link}
+                    className='text-white-400 mt-3 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer'>
                     <a href={link.href}>{link.name}</a>
                   </li>
                 ))}
@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
       <div className='flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center'>
         <div className='flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer'>
-          <img 
+          <img
             src={copyrightSign}
             alt='Copyright'
             width={20}

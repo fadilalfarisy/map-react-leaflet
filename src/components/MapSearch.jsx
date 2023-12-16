@@ -28,8 +28,6 @@ export default function LeafletControlGeocoder() {
       }
     }
 
-    geocoder.title = 'Search'
-
     L.Control.geocoder({
       query: "",
       placeholder: "Search Location",

@@ -15,23 +15,22 @@ const Hero = () => {
       className='w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container'
     >
       <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28'>
-        <p className='text-xl font-montserrat text-coral-red'>
-          Our Summer collections
+        <p className='text-xl font-montserrat text-unique-blue'>
+          Sistem Informasi Masjid Kecamatan Limo
         </p>
 
         <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold'>
           <span className=' relative z-10 pr-10'>
-            The New Arrival
+            Temukan
           </span>
           <br />
-          <span className='text-coral-red inline-block mt-3'>Nike</span> Shoes
+          <span className='text-unique-blue inline-block mt-3'>Masjid</span> Terdekat!
         </h1>
         <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
-          Discover stylish Nike arrivals, quality comfort, and innovation for
-          your active life.
+          <span className="italic">Website</span> kami akan membantu kamu untuk menemukan masjid terdekat di area kamu
         </p>
 
-        <Button label='Shop now' iconURL={arrowRight} />
+        <Button label='Temukan sekarang!' iconURL={arrowRight} />
 
         <div className='flex justify-start items-start flex-wrap w-full mt-20 gap-16'>
           {statistics.map((stat, index) => (

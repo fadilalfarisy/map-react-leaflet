@@ -21,7 +21,8 @@ import thumbnailShoe1 from './thumbnail-shoe1.svg'
 import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
 
-import heroMosque from './hero-mosque.png'
+import mosqueLogo from './mosque-logo.svg'
+import mosqueHero from './mosque-hero.png'
 
 export {
     bigShoe1,
@@ -46,5 +47,6 @@ export {
     thumbnailShoe2,
     thumbnailShoe3,
 
-    heroMosque
+    mosqueHero,
+    mosqueLogo
 }

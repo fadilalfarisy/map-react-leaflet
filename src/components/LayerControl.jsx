@@ -4,43 +4,57 @@ import {
   Marker,
   Popup,
   LayerGroup,
+  GeoJSON,
   Polygon,
-  GeoJSON
 } from "react-leaflet"
 import coordinat from '../data/coordinat.json'
 import onEachFeature from '../components/Border.jsx';
 import border from '../data/border.geojson.json'
+import L from 'leaflet'
+import { mosqueMarker } from '../assets/icons'
+import MosqueCard from "./MosqueCard.jsx";
+import limo from '../data/limo.json'
+
+const mosqueIcon = new L.Icon({
+  iconUrl: mosqueMarker,
+  iconSize: [36, 36], // size of the icon
+  // iconAnchor: [20, 58], // changed marker icon position
+  // popupAnchor: [0, -60], // changed popup position
+});
 
 export default function LayerControl() {
   return (
     <LayersControl position="topright">
-      <LayersControl.Overlay name="Mosque Marker">
+      <LayersControl.Overlay checked name="Mosque Marker" >
         <LayerGroup>
           {coordinat.features.map((mosque, index) => (
-            <Marker key={index} position={[mosque.properties.latitude, mosque.properties.longitude]}>
+            <Marker key={index} icon={mosqueIcon} position={[mosque.properties.latitude, mosque.properties.longitude]}>
               <Popup>
-                <h2>{mosque.properties.name}</h2>
-                <p>{mosque.properties.address}</p>
-                <p>{mosque.properties.latitude}</p>
-                <p>{mosque.properties.longitude}</p>
-                <img src="https://lh5.googleusercontent.com/p/AF1QipM41T1Rle0Dy9Pyj2WABCydiuSvqAIgeVtiW4_0=w408-h544-k-no" alt="mosque" />
+                <MosqueCard
+                  id={mosque.properties.id}
+                  imgURL={"https://lh5.googleusercontent.com/p/AF1QipM41T1Rle0Dy9Pyj2WABCydiuSvqAIgeVtiW4_0=w408-h544-k-no"}
+                  name={mosque.properties.name}
+                  address={mosque.properties.address}
+                  latitude={mosque.properties.latitude}
+                  longnitude={mosque.properties.longitude}
+                />
               </Popup>
             </Marker>
           ))}
         </LayerGroup>
       </LayersControl.Overlay>
 
-      {/* <LayersControl.Overlay checked name="Layer group with circles">
+      <LayersControl.Overlay name="Limo Border">
         <LayerGroup>
-          {data.map((element, index) => (
-            <Polygon pathOptions={{ color: 'grey', fillColor: 'grey' }} positions={element.features[0].geometry.coordinates[0][0]} key={index} >
-              <Popup><h3>{`Wilayah Kecamatan ${element.name}, Depok`}</h3></Popup>
+          {limo.features.map((element, index) => (
+            <Polygon pathOptions={{ fillColor: 'blue' }} positions={element.geometry.coordinates[0][0]} key={index} >
+              <Popup><h3>{`${limo.name}, Depok, Jawa Barat`}</h3></Popup>
             </Polygon>
           ))}
         </LayerGroup>
-      </LayersControl.Overlay> */}
+      </LayersControl.Overlay>
 
-      <LayersControl.Overlay checked name="Border Region">
+      <LayersControl.Overlay checked name="Depok Border">
         <GeoJSON data={border} onEachFeature={onEachFeature} />
       </LayersControl.Overlay>
 
