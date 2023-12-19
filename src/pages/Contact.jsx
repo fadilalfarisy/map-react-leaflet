@@ -1,6 +1,6 @@
 import {
-  Features,
-  CallMe
+  CallMe,
+  OurTeam
 } from '../sections';
 
 const Contact = () => {
@@ -12,7 +12,7 @@ const Contact = () => {
         </section>
       </section>
       <section className=' padding'>
-        <Features />
+        <OurTeam />
       </section>
     </>
   );

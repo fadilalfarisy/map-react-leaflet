@@ -58,7 +58,20 @@ export default {
           masjid2_4,
           masjid2_5,
         ],
-        "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
+        "facilities": ["Meja Belajar",
+          "Air Minum",
+          "Kipas",
+          "Halaman Terbuka",
+          "Papan Informasi",
+          "Kotak Amal",
+          "Tirai Pembatas Akhwat Dan Ikhwan",
+          "Toilet",
+          "Tempat Wudhu",
+          "Rak Al Qur'an",
+          "Speaker",
+          "Papan Jam Digital",
+          "AC",
+        ]
 
       }
     },
@@ -80,7 +93,16 @@ export default {
           masjid3_4,
           masjid3_5,
         ],
-        "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
+        "facilities": ["Rak Al Qur'an",
+          "Rak Mukena Sarung",
+          "Kursi Lipat",
+          "Kotak Amal",
+          "Parkir Motor",
+          "Kipas",
+          "Tirai Pembatas Akhwat Dan Ikhwan",
+          "Mimbar",
+          "Toa",
+          "2 Lantai"]
 
       }
     },
@@ -100,7 +122,16 @@ export default {
           masjid4_2,
           masjid4_3,
         ],
-        "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
+        "facilities": ["Mimbar",
+          "Parkir Mobil Dan Motor",
+          "Ambulance",
+          "Kotak Amal",
+          "Papan Informasi",
+          "Toilet",
+          "Tempat Wudhu",
+          "Air Minum",
+          "Kipas",
+          "Tirai Pembatas",]
 
       }
     },
@@ -119,7 +150,7 @@ export default {
           masjid5_1,
           masjid5_2,
         ],
-        "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
+        "facilities": ["Masih Dalam Tahap Pembangunan",]
 
       }
     },
@@ -141,7 +172,20 @@ export default {
           masjid6_4,
           masjid6_5,
         ],
-        "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
+        "facilities": ["Hand Sanitizer",
+          "Papan Informasi",
+          "Kotak Amal",
+          "Parkir Mobil Dan Motor",
+          "Mimbar",
+          "AC",
+          "Papan Jam Digital",
+          "Kipas",
+          "Toilet",
+          "Tempat Wudhu",
+          "Rak Kitab",
+          "Rak Mukena Sarung",
+          "Toa",
+          "Bedug",]
 
       }
     },
@@ -163,7 +207,19 @@ export default {
           masjid7_4,
           masjid7_5,
         ],
-        "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
+        "facilities": ["Hand Sanitizer",
+          "Kipas",
+          "AC",
+          "Tirai Pembatas",
+          "Rak Kitab",
+          "Rak Mukena",
+          "Kursi Lipat",
+          "Mimbar",
+          "Gapura",
+          "Kolam Ikan",
+          "Ambulance",
+          "Toilet",
+          "Tempat Wudhu",]
 
       }
     },
@@ -185,7 +241,23 @@ export default {
           masjid8_4,
           masjid8_5,
         ],
-        "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
+        "facilities": ["Kipas",
+          "Halaman Terbuka",
+          "Toa",
+          "Air Minum",
+          "Gelas",
+          "Kamar Marbot",
+          "Papan Informasi",
+          "Meja",
+          "Kursi",
+          "Toilet",
+          "Tempat Wudhu",
+          "Parkir Mobil",
+          "Mobil Motor",
+          "AC",
+          "Rak Kitab",
+          "Rak Mukena",
+          "Jam Digital",]
 
       }
     },
@@ -207,7 +279,18 @@ export default {
           masjid9_4,
           masjid9_5,
         ],
-        "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
+        "facilities": ["Parkir Mobil Motor",
+          "Rak Kitab",
+          "Rak Mukena",
+          "Tirai Pembatas",
+          "Papan Pengumuman",
+          "Tempat Wudhu",
+          "Toilet",
+          "Kipas",
+          "AC",
+          "Jam Digital",
+          "Speaker",
+          "Mimbar",]
 
       }
     },
@@ -229,7 +312,21 @@ export default {
           masjid10_4,
           masjid10_5,
         ],
-        "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
+        "facilities": ["AC",
+          "Kursi Lipat",
+          "Mimbar",
+          "Jam Digital",
+          "Speaker",
+          "Kotak Amal",
+          "Halaman Terbuka",
+          "Papan Tulis",
+          "Kipas",
+          "Kursi Kecil",
+          "Rak Kitab",
+          "Rak Mukena",
+          "Toilet",
+          "Tempat Wudhu",
+          "Parkir Motor",]
       }
     },
     {
@@ -250,7 +347,20 @@ export default {
           masjid11_4,
           masjid11_5,
         ],
-        "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
+        "facilities": ["Mimbar",
+          "Jam Digital",
+          "Kipas",
+          "Mic",
+          "Stand Mic",
+          "AC",
+          "Tirai Pembatas",
+          "Speaker",
+          "Papan Tulis",
+          "Halaman Terbuka",
+          "Rak Kitab",
+          "Bedug",
+          "Tempat Wudhu",
+          "Toilet",]
 
       }
     },
@@ -272,7 +382,23 @@ export default {
           masjid12_4,
           masjid12_5,
         ],
-        "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
+        "facilities": ["Kipas",
+          "Cctv",
+          "Tirai Pembatas",
+          "Kotak Amal",
+          "Meja Lipat",
+          "Rak Kitab",
+          "AC",
+          "Tv",
+          "Mimbar",
+          "Mic",
+          "Jam Digital",
+          "Speaker",
+          "Toilet",
+          "Tempat Wudhu",
+          "Rak Sepatu",
+          "Papan Informasi",
+          "Ambulance",]
       }
     },
     {
@@ -293,7 +419,19 @@ export default {
           masjid13_4,
           masjid13_5,
         ],
-        "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
+        "facilities": ["Kipas",
+          "Speaker",
+          "Halaman Terbuka",
+          "Papan Informasi",
+          "Jam Digital",
+          "Mimbar",
+          "AC",
+          "Kotak Amal",
+          "Tempat Wudhu",
+          "Toilet",
+          "Taman",
+          "Cermin",
+          "Toa",]
 
       }
     },
@@ -315,7 +453,19 @@ export default {
           masjid14_4,
           masjid14_5,
         ],
-        "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
+        "facilities": ["Mimbar",
+          "Mic",
+          "Kipas",
+          "AC",
+          "Speaker",
+          "Jam Digital",
+          "Tempat Wudhu",
+          "Toilet",
+          "Papan Pengumuman",
+          "Tirai Pembatas",
+          "Rak Kitab",
+          "Rak Mukena",
+          "Parkiran",]
 
       }
     },
@@ -337,7 +487,17 @@ export default {
           masjid15_4,
           masjid15_5,
         ],
-        "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
+        "facilities": ["Kipas",
+          "Tirai Pembatas",
+          "Rak Sepatu",
+          "Speaker",
+          "Jam Digital",
+          "Mimbar",
+          "Mic",
+          "Cctv",
+          "Toilet",
+          "Tempat Wudhu",
+          "Ambulance",]
 
       }
     },
@@ -359,7 +519,15 @@ export default {
           masjid16_4,
           masjid16_5,
         ],
-        "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
+        "facilities": ["Tempat Parkir",
+          "Toa",
+          "Tirai Pembatas",
+          "Kipas",
+          "Toilet",
+          "Tempat Wudhu",
+          "Mimbar",
+          "Jam Digital",
+          "Speaker",]
 
       }
     },

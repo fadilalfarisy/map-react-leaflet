@@ -3,7 +3,7 @@ import { star } from '../assets/icons';
 const PopularMosqueCard = ({ imgURL, name, reviews, rating, address }) => {
   return (
     <div className="flex flex-col w-full max-sm:w-full">
-      <img src={imgURL} alt={name} className="w-[280px] h-[280px] rounded-2xl" />
+      <img src={imgURL} alt={name} className="w-[280px] h-[280px] rounded-2xl object-cover" />
       <div className="mt-8 flex justify-start gap-2.5">
         <img src={star} alt="rating" width={24} height={24} />
         <p className='font-montserrat text-xl leading-normal text-slate-gray'>{rating} ({reviews})</p>

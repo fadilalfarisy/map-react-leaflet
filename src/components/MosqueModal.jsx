@@ -4,7 +4,7 @@ const MosqueModal = ({ id, imgURL, name, latitude, longitude, address }) => {
   return (
     <div className="max-w-image min-w-image py-3">
       <img
-        className="w-[200px] h-[150px] rounded-xl"
+        className="w-[200px] h-[150px] rounded-xl object-cover"
         src={imgURL}
         alt={name}
       />
