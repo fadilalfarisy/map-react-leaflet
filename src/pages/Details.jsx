@@ -46,7 +46,7 @@ const Details = ({
         id='details'
         className='w-full flex xl:flex-row flex-col gap-36 justify-between min-h-screen max-container mb-36'
       >
-        <div className='xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x'>
+        <div className='xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-24'>
 
           <img
             src={chevronLeft}
