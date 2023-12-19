@@ -1,5 +1,4 @@
-import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { instagram } from "../assets/icons";
 
 export const navLinks = [
     { to: "/", label: "Home" },
@@ -8,108 +7,81 @@ export const navLinks = [
     { to: "/contact", label: "Contact Us" },
 ];
 
-export const shoes = [
-    {
-        thumbnail: thumbnailShoe1,
-        bigShoe: bigShoe1,
-    },
-    {
-        thumbnail: thumbnailShoe2,
-        bigShoe: bigShoe2,
-    },
-    {
-        thumbnail: thumbnailShoe3,
-        bigShoe: bigShoe3,
-    },
-];
 
-export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
-];
-
-export const products = [
+export const features = [
     {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
-        rating: "4.2",
+        imgURL: instagram,
+        title: "Zoom In/Out",
+        description: "Memungkinkan pengguna untuk memperbesar atau memperkecil tampilan peta"
     },
     {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
-        rating: "4.7",
+        imgURL: instagram,
+        title: "Fullscreen",
+        description: "Pengguna dapat memperluas tampilan peta menjadi layar penuh"
     },
     {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
-        rating: "4.1",
+        imgURL: instagram,
+        title: "Your Location",
+        description: "Memungkinkan aplikasi untuk menentukan lokasi pengguna"
     },
     {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
-        rating: "4.9",
-    },
-];
-
-export const services = [
-    {
-        imgURL: truckFast,
-        label: "Free shipping",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+        imgURL: instagram,
+        title: "Home",
+        description: "Pengguna dapat kembali ke lokasi awal dengan satu click"
     },
     {
-        imgURL: shieldTick,
-        label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
+        imgURL: instagram,
+        title: "Direction",
+        description: "Memberikan petunjuk arah atau rute dari satu lokasi ke lokasi lain"
     },
     {
-        imgURL: support,
-        label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
-    },
-];
-
-export const reviews = [
-    {
-        imgURL: customer1,
-        customerName: 'Morich Brown',
-        rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        imgURL: instagram,
+        title: "Compass Point",
+        description: "Menunjukkan arah mata angin"
     },
     {
-        imgURL: customer2,
-        customerName: 'Lota Mongeskar',
-        rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
-    }
+        imgURL: instagram,
+        title: "Scale",
+        description: "Skala tampilan peta dapat disesuaikan dengan kebutuhan"
+    },
+    {
+        imgURL: instagram,
+        title: "Lat & Long",
+        description: "Memberikan informasi mengenai koordinat geografis suatu lokasi"
+    },
+    {
+        imgURL: instagram,
+        title: "Search",
+        description: "Pengguna dapat dengan mudah mencari lokasi tertentu"
+    },
+    {
+        imgURL: instagram,
+        title: "Layers Control",
+        description: "Memungkinkan pengguna untuk mengontrol lapisan atau informasi tertentu pada peta"
+    },
+    {
+        imgURL: instagram,
+        title: "Mini Map",
+        description: "Memberikan gambaran keseluruhan dari area yang sedang ditampilkan"
+    },
 ];
 
 
 export const footerLinks = [
     {
-        title: "Products",
+        title: "Mosque",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Wihdatul Ummah", link: "/" },
+            { name: "Al Muttaqien", link: "/" },
+            { name: "As Sunnah", link: "/" },
+            { name: "Jami' Al Muthmainnah", link: "/" },
         ],
     },
     {
         title: "Help",
         links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
             { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
+            { name: "Contact us", link: "/" },
         ],
     },
     {
@@ -122,7 +94,99 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
+    { src: instagram, alt: "instagram logo" },
+    { src: instagram, alt: "instagram logo" },
     { src: instagram, alt: "instagram logo" },
 ];
+
+import popularMosque1 from '../assets/masjid1/1.jpg'
+import popularMosque2 from '../assets/masjid14/1.jpg'
+import popularMosque3 from '../assets/masjid12/1.jpg'
+import popularMosque4 from '../assets/masjid4/1.jpg'
+
+export const popularMosque = [
+    {
+        "mosque": {
+            "id": 1,
+            'imgURL': popularMosque1,
+            "name": "Wihdatul Ummah",
+            "latitude": -6.353292,
+            "longitude": 106.777251,
+            "address": "Jl. Bukit Barisan",
+            "rating": 4.9,
+            "reviews": 584,
+            "info": "Jl. Bukit Barisan No.Blok J, RT.011/RW.014, Limo, Kec. Limo, Kota Depok, Jawa Barat 16514",
+            "facilities": [
+                "Tempat Wudhu",
+                "Kipas",
+                "Alat Ibadah",
+                "Al-Qur'an",
+                "Mimbar",
+                "Tempat Penitipan Sepatu"
+            ]
+        }
+    },
+    {
+        "mosque": {
+            "id": 14,
+            'imgURL': popularMosque2,
+            "name": "Al Muttaqien",
+            "latitude": -6.360533,
+            "longitude": 106.776425,
+            "address": "Jl. Kp. Grogol Sebrang",
+            "rating": 4.8,
+            "reviews": 465,
+            "info": "Jl. Naman Iskandar No.1, Limo, Kec. Limo, Kota Depok, Jawa Barat 16514",
+            "facilities": [
+                "Tempat Wudhu",
+                "Kipas",
+                "Alat Ibadah",
+                "Al-Qur'an",
+                "Mimbar",
+                "Tempat Penitipan Sepatu"
+            ]
+        }
+    },
+    {
+        "mosque": {
+            "id": 12,
+            "name": "As Sunnah",
+            'imgURL': popularMosque3,
+            "latitude": -6.379376,
+            "longitude": 106.773367,
+            "address": "Jl. Tiga Putra",
+            "rating": 4.9,
+            "reviews": 252,
+            "info": "Jl. Tiga Putra No.RT 01/011, Meruyung, Kec. Limo, Kota Depok, Jawa Barat 16532",
+            "facilities": [
+                "Tempat Wudhu",
+                "Kipas",
+                "Alat Ibadah",
+                "Al-Qur'an",
+                "Mimbar",
+                "Tempat Penitipan Sepatu"
+            ]
+        }
+    },
+    {
+        "mosque": {
+            "id": 4,
+            'imgURL': popularMosque4,
+            "name": "Jami' Al Muthmainnah",
+            "latitude": -6.382336,
+            "longitude": 106.768899,
+            "address": "Jl. Meruyung Raya",
+            "rating": 4.8,
+            "reviews": 193,
+            "info": "Jl. Meruyung Raya, Meruyung, Kec. Limo, Kota Depok, Jawa Barat 16515",
+            "facilities": [
+                "Tempat Wudhu",
+                "Kipas",
+                "Alat Ibadah",
+                "Al-Qur'an",
+                "Mimbar",
+                "Tempat Penitipan Sepatu"
+            ]
+        }
+    },
+]

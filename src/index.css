@@ -100,3 +100,8 @@
   display: table-cell;
   padding-right: 1em;
 }
+
+.active {
+  color: rgba(5, 15, 110, 0.68);
+  font-weight: 600;
+}

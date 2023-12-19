@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/mosque/:id" element={<Details />} />
         <Route path='*' element={< NotFound />} />
       </Routes>
-      <section className='bg-black padding-x padding-t pb-8'>
+      <section className='bg-black padding-x py-10'>
         <Footer />
       </section>
     </>

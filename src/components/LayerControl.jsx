@@ -7,19 +7,17 @@ import {
   GeoJSON,
   Polygon,
 } from "react-leaflet"
-import coordinat from '../data/coordinat.json'
+import coordinat from '../constants/details-mosque.js'
 import onEachFeature from '../components/Border.jsx';
 import border from '../data/border.geojson.json'
 import L from 'leaflet'
 import { mosqueMarker } from '../assets/icons'
-import MosqueCard from "./MosqueCard.jsx";
+import MosqueModal from "./MosqueModal.jsx";
 import limo from '../data/limo.json'
 
 const mosqueIcon = new L.Icon({
   iconUrl: mosqueMarker,
   iconSize: [36, 36], // size of the icon
-  // iconAnchor: [20, 58], // changed marker icon position
-  // popupAnchor: [0, -60], // changed popup position
 });
 
 export default function LayerControl() {
@@ -27,16 +25,16 @@ export default function LayerControl() {
     <LayersControl position="topright">
       <LayersControl.Overlay checked name="Mosque Marker" >
         <LayerGroup>
-          {coordinat.features.map((mosque, index) => (
-            <Marker key={index} icon={mosqueIcon} position={[mosque.properties.latitude, mosque.properties.longitude]}>
+          {coordinat.features.map((element, index) => (
+            <Marker key={index} icon={mosqueIcon} position={[element.mosque.latitude, element.mosque.longitude]}>
               <Popup>
-                <MosqueCard
-                  id={mosque.properties.id}
-                  imgURL={"https://lh5.googleusercontent.com/p/AF1QipM41T1Rle0Dy9Pyj2WABCydiuSvqAIgeVtiW4_0=w408-h544-k-no"}
-                  name={mosque.properties.name}
-                  address={mosque.properties.address}
-                  latitude={mosque.properties.latitude}
-                  longnitude={mosque.properties.longitude}
+                <MosqueModal
+                  id={element.mosque.id}
+                  imgURL={element.mosque.thumbnail}
+                  name={element.mosque.name}
+                  address={element.mosque.address}
+                  latitude={element.mosque.latitude}
+                  longitude={element.mosque.longitude}
                 />
               </Popup>
             </Marker>

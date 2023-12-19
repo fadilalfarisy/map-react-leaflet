@@ -1,11 +1,6 @@
 import {
-  CustomerReviews,
-  Hero,
-  PopularProducts,
-  SuperQuality,
-  Services,
-  SpecialOffers,
-  Subscribe,
+  Features,
+  CallMe
 } from '../sections';
 
 const Contact = () => {
@@ -13,11 +8,11 @@ const Contact = () => {
     <>
       <section className='pt-69 padding-x'>
         <section className='padding-t'>
-          <SpecialOffers />
+          <CallMe />
         </section>
       </section>
-      <section className='padding-x sm:py-32 py-16 w-full'>
-        <Subscribe />
+      <section className=' padding'>
+        <Features />
       </section>
     </>
   );

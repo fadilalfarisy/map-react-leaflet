@@ -7,6 +7,8 @@
         "latitude": -6.353292,
         "longitude": 106.777251,
         "address": "Jl. Bukit Barisan",
+        "rating": 4.9,
+        "reviews": 584,
         "info": "Jl. Bukit Barisan No.Blok J, RT.011/RW.014, Limo, Kec. Limo, Kota Depok, Jawa Barat 16514",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
       }
@@ -18,6 +20,8 @@
         "latitude": -6.36708,
         "longitude": 106.773323,
         "address": "Jl. H.Masdulhak",
+        "rating": 5,
+        "reviews": 25,
         "info": "Jl. .H.Masdulhak, Limo, Kec. Limo, Kota Depok, Jawa Barat 16515",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
 
@@ -30,6 +34,8 @@
         "latitude": -6.380997,
         "longitude": 106.781104,
         "address": "Jl. Kp. Grogol Sebrang",
+        "rating": 4.3,
+        "reviews": 11,
         "info": "Jl. Kp. Grogol Sebrang, RT.01/RW.06, Grogol, Kec. Limo, Kota Depok, Jawa Barat 16514",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
 
@@ -42,6 +48,8 @@
         "latitude": -6.382336,
         "longitude": 106.768899,
         "address": "Jl. Meruyung Raya",
+        "rating": 4.8,
+        "reviews": 193,
         "info": "Jl. Meruyung Raya, Meruyung, Kec. Limo, Kota Depok, Jawa Barat 16515",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
 
@@ -54,6 +62,8 @@
         "latitude": -6.378611,
         "longitude": 106.769989,
         "address": "Jl. Ustadz Arifin Ilham",
+        "rating": 4.6,
+        "reviews": 100,
         "info": "Jl. Ustadz Arifin Ilham No.50, RT.4/RW.5, Meruyung, Kec. Limo, Kota Depok, Jawa Barat 16514",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
 
@@ -66,6 +76,8 @@
         "latitude": -6.367213,
         "longitude": 106.782975,
         "address": "Jl. Pendowo",
+        "rating": 4.7,
+        "reviews": 161,
         "info": "JL. Pendowo, Kec. Limo, Kota Depok, Jawa Barat 16515",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
 
@@ -78,6 +90,8 @@
         "latitude": -6.373543,
         "longitude": 106.776794,
         "address": "Jl. Arthayasa",
+        "rating": 4.9,
+        "reviews": 69,
         "info": "Jl. Arthayasa No.89, Meruyung, Kec. Limo, Kota Depok, Jawa Barat 16515",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
 
@@ -90,6 +104,8 @@
         "latitude": -6.381304,
         "longitude": 106.775742,
         "address": "Jl. Bina Warga Dalam",
+        "rating": 4.7,
+        "reviews": 29,
         "info": "Jl. Bina Warga Dalam, Meruyung, Limo, Meruyung, Depok, Kota Depok, Jawa Barat 16514",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
 
@@ -102,6 +118,8 @@
         "latitude": -6.382837,
         "longitude": 106.781138,
         "address": "Jl. Kp. Grogol Sebrang",
+        "rating": 4.5,
+        "reviews": 10,
         "info": "Jl. Kp. Grogol Sebrang No.14, Grogol, Kec. Limo, Kota Depok, Jawa Barat 16514",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
 
@@ -114,9 +132,10 @@
         "latitude": -6.376196,
         "longitude": 106.776903,
         "address": "Jl. Perumahan Lemigas",
+        "rating": 4.3,
+        "reviews": 16,
         "info": "Jl. Perumahan Lemigas No.Rt 002/009, Meruyung, Kec. Limo, Kota Depok, Jawa Barat 16515",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
-
       }
     },
     {
@@ -126,6 +145,8 @@
         "latitude": -6.381717,
         "longitude": 106.779303,
         "address": "Jl. Komp. De Fatmawati",
+        "rating": 5.0,
+        "reviews": 2,
         "info": "Jl. Komp. De Fatmawati, Meruyung, Kec. Limo, Kota Depok, Jawa Barat 16514",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
 
@@ -138,9 +159,10 @@
         "latitude": -6.379376,
         "longitude": 106.773367,
         "address": "Jl. Tiga Putra",
+        "rating": 4.9,
+        "reviews": 252,
         "info": "Jl. Tiga Putra No.RT 01/011, Meruyung, Kec. Limo, Kota Depok, Jawa Barat 16532",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
-
       }
     },
     {
@@ -150,6 +172,8 @@
         "latitude": -6.373917,
         "longitude": 106.782062,
         "address": "Jl. Swadaya",
+        "rating": 5.0,
+        "reviews": 21,
         "info": "Jl. Swadaya No.81 Kampung, Jl. Raya Pulo Mangga, Grogol, Kec. Limo, Kota Depok, Jawa Barat 16514",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
 
@@ -162,7 +186,9 @@
         "latitude": -6.360533,
         "longitude": 106.776425,
         "address": "Jl. Kp. Grogol Sebrang",
-        "info": "Jl. Kp. Grogol Sebrang No.14, Grogol, Kec. Limo, Kota Depok, Jawa Barat 16514",
+        "rating": 4.8,
+        "reviews": 465,
+        "info": "Jl. Naman Iskandar No.1, Limo, Kec. Limo, Kota Depok, Jawa Barat 16514",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
 
       }
@@ -174,6 +200,8 @@
         "latitude": -6.375073,
         "longitude": 106.771082,
         "address": "Jl. Al-Mujahidin",
+        "rating": 4.7,
+        "reviews": 136,
         "info": "Jl. Al-Mujahidin No.77, Meruyung, Kec. Limo, Kota Depok, Jawa Barat 16514",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
 
@@ -186,6 +214,8 @@
         "latitude": -6.382589,
         "longitude": 106.768742,
         "address": "Jl. Al-Furqon",
+        "rating": 5.0,
+        "reviews": 2,
         "info": "Jl. Al-Furqon, Meruyung, Kec. Limo, Kota Depok, Jawa Barat 16515",
         "facilities": ["Tempat Wudhu", "Kipas", "Alat Ibadah", "Al-Qur'an", "Mimbar", "Tempat Penitipan Sepatu"]
 

@@ -1,19 +1,17 @@
-import CustomerReviews from './CustomerReviews';
+import OurTeam from './OurTeam';
 import Footer from './Footer';
 import Hero from './Hero';
-import PopularProducts from './PopularProducts';
-import Services from './Services';
-import SpecialOffers from './SpecialOffers';
-import Subscribe from './Subscribe';
-import SuperQuality from './SuperQuality';
+import PopularMosque from './PopularMosque';
+import Features from './Features';
+import CallMe from './CallMe';
+import CriteriaMosque from './CriteriaMosque';
 
 export {
-    CustomerReviews,
+    OurTeam,
     Footer,
     Hero,
-    PopularProducts,
-    Services,
-    SpecialOffers,
-    Subscribe,
-    SuperQuality
+    PopularMosque,
+    Features,
+    CallMe,
+    CriteriaMosque
 }

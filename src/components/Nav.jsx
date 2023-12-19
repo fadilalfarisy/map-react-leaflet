@@ -1,6 +1,6 @@
 import { hamburger, mosqueIcon } from "../assets/icons";
 import { navLinks } from "../constants";
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Nav = () => {
   return (
@@ -12,18 +12,19 @@ const Nav = () => {
             alt='logo'
             width={129}
             height={50}
-            className='m-0 w-[129px] h-[50px]'
+            className='w-[129px] h-[50px]'
           />
         </Link>
         <ul className='flex-1 flex justify-end items-center gap-16 max-lg:hidden'>
           {navLinks.map((item) => (
             <li key={item.label}>
-              <Link
+              <NavLink
                 to={item.to}
-                className='font-montserrat leading-normal text-md text-slate-gray'
+                className={`font-montserrat leading-normal text-md text-slate-gray ${(navData) => (navData.isActive ? "active" : 'none')}`}
+              // className='font-montserrat leading-normal text-md text-slate-gray'
               >
                 {item.label}
-              </Link>
+              </NavLink>
             </li>
           ))}
         </ul>

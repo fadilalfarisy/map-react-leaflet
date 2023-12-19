@@ -17,7 +17,7 @@ const createRoutineMachineLayer = ({ position, start, end, color }) => {
         },
       ],
     },
-    show: false,
+    show: true,
     addWaypoints: false,
     routeWhileDragging: true,
     draggableWaypoints: true,

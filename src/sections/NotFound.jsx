@@ -4,7 +4,7 @@ const NotFound = () => {
       <h3 className="font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold text-unique-blue">
         404
       </h3>
-      <p className="text-4xl font-montserrat font-bold">Not Found</p>
+      <p className="text-4xl font-montserrat font-bold">Page Not Found</p>
     </section>
   )
 }
