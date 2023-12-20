@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import { mosqueLogo } from "../assets/images";
-import { chevronLeft } from "../assets/icons";
+import { chevronLeft, star } from "../assets/icons";
 import { useParams, useNavigate } from "react-router-dom";
 import mosqueDetails from '../constants/details-mosque.js'
 import { ChevronLeft, ChevronRight } from "react-feather"
+
 
 const slides = [
   'https://i.ibb.co/B3s7v4h/2.png',
@@ -32,7 +33,6 @@ const Details = ({
     if (!findMosque) navigate("/404")
     setMosqueInfo(findMosque)
     setSlides(findMosque.mosque.images)
-    console.log(findMosque)
 
     if (!autoSlide) return
     const slideInterval = setInterval(next, autoSlideInterval)
@@ -70,7 +70,12 @@ const Details = ({
             {mosqueInfo?.mosque?.info}
           </p>
 
-          <ul className="mosque-coordinate mb-14 ">
+          <div className="flex justify-start gap-2.5">
+            <img src={star} alt="rating" width={16} height={16} />
+            <p className='font-montserrat text-lg leading-normal text-slate-gray'>{mosqueInfo?.mosque?.rating} ({mosqueInfo?.mosque?.reviews})</p>
+          </div>
+
+          <ul className="mosque-coordinate mb-14">
             <li className='font-montserrat text-slate-gray text-lg leading-8 text-justify'>
               <span>Latitude</span>: {mosqueInfo?.mosque?.latitude}
             </li>
@@ -122,26 +127,6 @@ const Details = ({
               </div>
             </div>
           </div>
-          {/* <img
-            src={bigShoeImg}
-            alt='shoe colletion'
-            width={610}
-            height={502}
-            className='object-contain mb-12'
-          />
-
-          <div className='flex sm:gap-6 gap-4 sm:left-[10%] max-sm:px-6'>
-            {shoes.map((image, index) => (
-              <div key={index}>
-                <ShoeCard
-                  index={index}
-                  imgURL={image}
-                  changeBigShoeImage={(shoe) => setBigShoeImg(shoe)}
-                  bigShoeImg={bigShoeImg}
-                />
-              </div>
-            ))}
-          </div> */}
         </div>
       </section>
     </section>
