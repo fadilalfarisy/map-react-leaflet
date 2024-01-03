@@ -6,10 +6,12 @@ import {
   LayerGroup,
   GeoJSON,
   Polygon,
+  Polyline
 } from "react-leaflet"
 import coordinat from '../constants/details-mosque.js'
 import onEachFeature from '../components/Border.jsx';
 import border from '../data/border.geojson.json'
+import street from '../data/jalan.geojson.json'
 import L from 'leaflet'
 import { mosqueMarker } from '../assets/icons'
 import MosqueModal from "./MosqueModal.jsx";
@@ -54,6 +56,17 @@ export default function LayerControl() {
 
       <LayersControl.Overlay checked name="Depok Border">
         <GeoJSON data={border} onEachFeature={onEachFeature} />
+      </LayersControl.Overlay>
+
+      <LayersControl.Overlay name="Depok Street">
+        <LayerGroup>
+          {street.features.map((element, index) => (
+            // console.log(element.geometry.coordinates[0])
+            <Polyline pathOptions={{ color: 'purple', weight: 6 }} positions={element.geometry.coordinates[0]} key={index} >
+              <Popup><h3>{`${element.properties.nama_jalan}`}</h3></Popup>
+            </Polyline>
+          ))}
+        </LayerGroup>
       </LayersControl.Overlay>
 
       <LayersControl.BaseLayer name="Openstreet">
