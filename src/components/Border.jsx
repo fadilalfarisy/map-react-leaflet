@@ -13,9 +13,9 @@ function onEachFeature(feature, layer) {
 
     // style
     this.setStyle({
-      fillColor: '#eb4034',
+      fillColor: '#ffff00',
       weight: 2,
-      color: '#eb4034',
+      color: '#ffff00',
       fillOpacity: 0.7,
     });
   });

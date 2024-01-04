@@ -25,6 +25,10 @@ const Hero = () => {
           <span className="italic">Website</span> kami akan membantu kamu untuk menemukan masjid terdekat di area kamu
         </p>
 
+        <p className='font-montserrat text-slate-gray text-lg leading-8 mb-14 sm:max-w-sm'>
+          Selain lokasi masjid, website kami akan menyajikan berbagai fasilitas yang terdapat pada masjid yang kamu kunjungin
+        </p>
+
         <Button label='Temukan sekarang!' iconURL={arrowRight} />
 
       </div>
